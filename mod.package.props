@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <ThunderstoreName>DrakesQuestItems</ThunderstoreName>
+    <ThunderstoreAuthor>DrakeMods</ThunderstoreAuthor>
+    <RootNamespace>DrakesQuestItems</RootNamespace>
+    <AssemblyName>DrakesQuestItems</AssemblyName>
+    <Version>0.1.0</Version>
+    <BepInPluginName>DrakesQuestItems</BepInPluginName>
+    <BepInGuid>com.drakesworkshop.questitems</BepInGuid>
+    <ModInfoClass>QuestItemsPlugin</ModInfoClass>
+    <Description>DrakesWorkshop — Quest items (stub).</Description>
+    <WebsiteUrl>https://github.com/drakethos/DrakesQuestItems</WebsiteUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <ThunderstoreDependency Include="denikson-BepInExPack_Valheim-5.4.2333" />
+    <ThunderstoreDependency Include="ValheimModding-Jotunn-2.29.0" />
+    <ThunderstoreDependency Include="DrakeMods-DrakesCustomizeLibs-0.3.0" />
+    <ThunderstoreDependency Include="DrakeMods-DrakesItemForge-0.1.0" />
+  </ItemGroup>
+</Project>
