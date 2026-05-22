@@ -1,0 +1,3 @@
+<Project>
+  <Import Project="$(DrakeModBuildRoot)DrakeMod.Reference.ItemForge.props" Condition="'$(DrakeModBuildRoot)' != ''" />
+</Project>
